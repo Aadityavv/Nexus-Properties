@@ -1,3 +1,4 @@
+// CAROUSEL
 document.addEventListener('DOMContentLoaded', () => {
     const slidesData = [
       { src: './images/industrialWarehouse.jpeg', description: 'Industrial Warehouse/ Factory' },
