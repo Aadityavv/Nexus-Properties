@@ -1,0 +1,30 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # or your default branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      id-token: write  # Add this line to grant id-token permission
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Build project
+        run: |
+          # Your build commands here
+          npm install
+          npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+        with:
+          # Specify the folder where your site is built
+          publish_dir: ./build  # Adjust according to your build output directory
