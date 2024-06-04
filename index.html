@@ -9,15 +9,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
+  <div class="sameBackground">
     <!-- HEAD SECTION -->
-    <section id="header">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-0 border-bottom">
+    <section id="header" >
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-0 ">
             <a href="./index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
             <img src="./images/Untitled design.png" alt="logo" style="height: 40px; margin: 2px 2px 0px 20px;">
               <span class="fs-4">Real Estate</span>
             </a>
       
-            <ul class="nav nav-pills">
+            <ul class="nav nav-pills text-center">
               <li class="nav-item" ><a href="#" class="nav-link active" aria-current="page" style="color: #393a3d; background-color: #ffff;">Home</a></li>
               <li class="nav-item" ><a href="#" class="nav-link" style="color: #393a3d;">Features</a></li>
               <li class="nav-item" ><a href="#" class="nav-link" style="color: #393a3d;">Pricing</a></li>
@@ -26,21 +27,23 @@
             </ul>
           </header>
     </section>
-
+  </div>
     <!-- HOME PAGE -->
-    <section id="Home">
-      <div class="container col-xxl-8 px-4 py-5">
+    <section id="Home" class="sameBackground">
+      <div class="container col-xxl-8 px-5 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
-            <img src="./images/property-management-real-estate-business-housing_777271-2568.avif" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" height="800" loading="lazy">
+            <!-- <img src="./images/property-management-real-estate-business-housing_777271-2568.avif" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" height="800" loading="lazy"> -->
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Invest For Future</h1>
             <p class="lead">At Real Estate, we offer a comprehensive range of services to meet all your real estate needs. Whether you are looking to buy, sell, rent, or manage a property, our team of experienced professionals is here to help</p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-md-2"><a class="homePageButtons" href="./buy.html">Browse Properties</a></button>
-              <button type="button" class="btn btn-outline-secondary btn-lg px-4"><a class="homePageButtons" href="./sell.html">Contact Us</a></button>
+            <div class="d-grid gap-1 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-outline-secondary btn-lg px-3 me-md-1"><a class="homePageButtons" href="./buy.html">Browse Properties</a></button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-3 me-md-1"><a class="homePageButtons" href="./buy.html">Sell Properties</a></button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-3"><a class="homePageButtons" href="./sell.html">Contact Us</a></button>
             </div>
+            <div class="py-5"></div>
           </div>
         </div>
       </div>

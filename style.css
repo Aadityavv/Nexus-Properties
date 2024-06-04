@@ -244,3 +244,7 @@ ul {
   font-size: 14px;
   color: #878787;
 }
+.sameBackground{
+  background-image: url(./images/homePage.png);
+  
+}
