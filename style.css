@@ -259,3 +259,31 @@ ul {
 }
 #About{
 }
+.nav-pills .nav-link {
+  position: relative;
+  color: #393a3d;
+  background-color: transparent;
+  padding: 10px 15px;
+  transition: color 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.nav-pills .nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #393a3d;
+  transition: width 0.3s ease-in-out;
+  -webkit-transition: width 0.3s ease-in-out;
+}
+
+.nav-pills .nav-link:hover::after,
+.nav-pills .nav-link.active:hover::after {
+  width: 100%;
+  left: 0;
+  background-color: #393a3d;
+}
