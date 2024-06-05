@@ -90,7 +90,7 @@ ul {
     padding: 0px;
 }
 .footer-section {
-  background: #ffffff;
+  /* background: #ffffff; */
   position: relative;
 }
 .footer-cta {
@@ -249,11 +249,13 @@ ul {
   
 }
 #Featured{
-  background-image: url(./images/featured.png);
+  /* background-image: url(./images/featured.png); */
   background-attachment: fixed;
   background-repeat: no-repeat;
   height: 100%;
 }
 #Services{
   background-color: #afb7ac;
+}
+#About{
 }
