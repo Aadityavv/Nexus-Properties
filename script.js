@@ -59,4 +59,6 @@ document.addEventListener('DOMContentLoaded', () => {
   
     populateCarouselTrack(slidesData);
   });
+  // List item animation
+
   
