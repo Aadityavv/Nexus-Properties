@@ -1,4 +1,7 @@
-
+*{
+  background-color: black;
+  color: white;
+}
 /* location dropdown menu */
 .drop{
     background: none;
@@ -61,4 +64,12 @@
     width: 100%;
     left: 0;
     background-color: #393a3d;
+  }
+
+  /* centering search filters */
+
+  .searchBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
