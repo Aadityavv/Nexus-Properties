@@ -318,3 +318,13 @@ ul {
 .dropdown-content a:hover {background-color: rgba(221, 221, 221, 0.1);}
 
 .dropdown:hover .dropdown-content {display: block;}
+
+@media (max-width:600px) {
+  #sameBackground{
+    background-image:url(./images/hotel.jpg) ;
+    background-size: cover;
+    background-color: #ffffff;
+    color: #ffff;
+  }
+  
+}
