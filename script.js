@@ -74,12 +74,34 @@ for (var i = 0; i < buttons.length; i++) {
     this.style.backgroundColor="transparent";
   });
 }
-// document.querySelector(".drop").addEventListener("mouseover",function(){
-//   this.style.transform="scale(1.3)";
-//   this.style.transition = "transform 0.3s";
-// })
-// document.querySelector(".drop").addEventListener("mouseout",function(){
-//   this.style.transform="scale(1)";
-//   this.style.transition = "transform 0.3s";
-// })
+document.querySelector(".drop").addEventListener("mouseover",function(){
+  this.style.transform="scale(1.3)";
+  this.style.transition = "transform 0.3s";
+})
+document.querySelector(".drop").addEventListener("mouseout",function(){
+  this.style.transform="scale(1)";
+  this.style.transition = "transform 0.3s";
+})
   
+
+// CUSTOM SCROLLING EFFECT
+
+// let currentSection=0;
+// const sections=document.querySelectorAll("section");
+// const totalSections=sections.length;
+
+// window.addEventListener("wheel", handleScroll, {passive:false});
+// window.addEventListener('DOMMouseScroll', handleScroll, { passive: false });
+// function handleScroll(event){
+// event.preventDefault();
+// const delta= event.wheelDelta|| -event.detail;
+// if(delta<0 && currentSection< totalSections-1)
+//   currentSection++;
+// else if(delta>0 && currentSection>0)
+//   currentSection--;
+// scrollToSection(currentSection);
+// }
+
+// function scrollToSection(currentSection){
+//   sections[currentSection].scrollIntoView({behavior:"smooth"})
+// }
