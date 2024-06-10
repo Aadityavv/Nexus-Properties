@@ -85,6 +85,7 @@
 .homePageButtons{
     text-decoration: none;
     color: black;
+    
 }  
 ul {
     margin: 0px;
@@ -246,7 +247,7 @@ ul {
   color: #878787;
 }
 #sameBackground{
-  background-image: url(./images/homePage.png);
+  background-image: url(./images/villa.webp);
   
 }
 #Featured{
@@ -256,7 +257,7 @@ ul {
   height: 100%;
 }
 #Services{
-  background-color: #afb7ac;
+  background-color: #ffffff;
 }
 #About{
 }
@@ -277,7 +278,7 @@ ul {
   display: block;
   margin-top: 5px;
   right: 0;
-  background: #393a3d;
+  background: #ffffff;
   transition: width 0.3s ease-in-out;
   -webkit-transition: width 0.3s ease-in-out;
 }
@@ -286,7 +287,7 @@ ul {
 .nav-pills .nav-link.active:hover::after {
   width: 100%;
   left: 0;
-  background-color: #393a3d;
+  background-color: #ffffff;
 }
 .drop{
   background: none;
