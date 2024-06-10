@@ -84,24 +84,3 @@ document.querySelector(".drop").addEventListener("mouseout",function(){
 })
   
 
-// CUSTOM SCROLLING EFFECT
-
-// let currentSection=0;
-// const sections=document.querySelectorAll("section");
-// const totalSections=sections.length;
-
-// window.addEventListener("wheel", handleScroll, {passive:false});
-// window.addEventListener('DOMMouseScroll', handleScroll, { passive: false });
-// function handleScroll(event){
-// event.preventDefault();
-// const delta= event.wheelDelta|| -event.detail;
-// if(delta<0 && currentSection< totalSections-1)
-//   currentSection++;
-// else if(delta>0 && currentSection>0)
-//   currentSection--;
-// scrollToSection(currentSection);
-// }
-
-// function scrollToSection(currentSection){
-//   sections[currentSection].scrollIntoView({behavior:"smooth"})
-// }
