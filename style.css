@@ -294,11 +294,13 @@ color: white;
   width: 100%;
   left: 0;
   background-color: #ffffff;
+  
 }
 .drop{
   background: none;
   border: transparent;
   position: relative;
+  
 }
 .dropdown-content{
   display: none;
@@ -309,10 +311,12 @@ color: white;
   z-index: 1;
   left: 0; 
   top: 100%; /* Position the dropdown just below the button */
+  /* text-align: left; */
 
 }
 .dropdown{
   position: relative;
+  
 }
 .dropdown-content a {
   color: black;
@@ -333,4 +337,21 @@ color: white;
     color: #ffff;
   }
   
+}
+
+
+.bounce {
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+  }
+  40% {
+      transform: translateY(-20px);
+  }
+  /* 60% {
+      transform: translateY(-10px);
+  } */
 }
