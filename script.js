@@ -66,12 +66,13 @@ for (var i = 0; i < buttons.length; i++) {
     this.style.transform = "scale(1.2)"; // Increase size by 20%
     this.style.transition = "transform 0.3s"; // Smooth transition
     this.style.backgroundColor="rgba(256,256,256,0.3)";
+    // this.style.color="";
   });
 
   buttons[i].addEventListener("mouseout", function() {
     this.style.transform = "scale(1)"; // Reset size to original
     this.style.transition = "transform 0.3s"; // Smooth transition
-    this.style.backgroundColor="transparent";
+    this.style.backgroundColor="rgb(256,256,256)";
   });
 }
 document.querySelector(".drop").addEventListener("mouseover",function(){
@@ -83,4 +84,24 @@ document.querySelector(".drop").addEventListener("mouseout",function(){
   this.style.transition = "transform 0.3s";
 })
   
+// CHANGING PICTURES IN BODY BACKGROUND
 
+const slidesData1 = [
+  { src: './images/industrialWarehouse.jpeg', description: 'Industrial Warehouse/ Factory' },
+  { src: './images/commercialBuilding.jpg', description: 'Commercial Building/Land' },
+  { src: './images/townshipLand.jpg', description: 'Group Housing/ Township' },
+  { src: './images/it building.jpg', description: 'IT Towers' },
+  { src: './images/college.webp', description: 'Institutional Properties' },
+  { src: './images/hotels.jpg', description: 'Hotels/ Restraunts' },
+  { src: './images/wedding.jpeg', description: 'Marriage Grounds' },
+  { src: './images/hospital.jpg', description: 'Hospitals' },
+  { src: './images/residential.webp', description: 'Residential Land' },
+  { src: './images/villa.webp', description: 'Independent Villas' },
+  { src: './images/shops.webp', description: 'Shops' }
+];
+
+const changeElement=document.querySelector(".sameBackground");
+for(let k=0;k<=-1;k++)
+  {
+    changeElement.innerHTML=slidesData1[k%11];
+  }
