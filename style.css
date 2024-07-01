@@ -255,11 +255,17 @@ ul {
   background-attachment: fixed;
   background-repeat: no-repeat;
   height: 100%;
+  background-color: #defff9b9;
 }
 #Services{
-  background-color: #ffffff;
+  background-color: #dfffc7;
 }
 #About{
+  background-color: #000000;
+  color: white;
+}
+#About h4{
+color: white;
 }
 .nav-pills .nav-link {
   position: relative;
