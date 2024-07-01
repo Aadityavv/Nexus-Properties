@@ -75,14 +75,14 @@ for (var i = 0; i < buttons.length; i++) {
     this.style.backgroundColor="rgb(256,256,256)";
   });
 }
-document.querySelector(".drop").addEventListener("mouseover",function(){
-  this.style.transform="scale(1.3)";
-  this.style.transition = "transform 0.3s";
-})
-document.querySelector(".drop").addEventListener("mouseout",function(){
-  this.style.transform="scale(1)";
-  this.style.transition = "transform 0.3s";
-})
+// document.querySelector(".drop").addEventListener("mouseover",function(){
+//   this.style.transform="scale(1.3)";
+//   this.style.transition = "transform 0.3s";
+// })
+// document.querySelector(".drop").addEventListener("mouseout",function(){
+//   this.style.transform="scale(1)";
+//   this.style.transition = "transform 0.3s";
+// })
   
 // CHANGING PICTURES IN BODY BACKGROUND
 
