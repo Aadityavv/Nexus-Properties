@@ -65,14 +65,15 @@ for (var i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener("mouseover", function() {
     this.style.transform = "scale(1.1)"; // Increase size by 20%
     this.style.transition = "transform 0.1s"; // Smooth transition
-    this.style.backgroundColor="rgba(256,256,256)";
-    this.style.color="rgb(255, 255, 255)";
+    this.style.backgroundColor="#66a1bf";
+    this.querySelector("a").style.color = "white";
   });
 
   buttons[i].addEventListener("mouseout", function() {
     this.style.transform = "scale(1)"; // Reset size to original
     this.style.transition = "transform 0.1s"; // Smooth transition
     this.style.backgroundColor="rgb(256,256,256)";
+    this.querySelector("a").style.color = "black";
   });
 }
 // document.querySelector(".drop").addEventListener("mouseover",function(){
