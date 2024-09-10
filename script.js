@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
       { src: './images/townshipLand.jpg', description: 'Group Housing/ Township' },
       { src: './images/it building.jpg', description: 'IT Towers' },
       { src: './images/college.webp', description: 'Institutional Properties' },
-      { src: './images/hotels.jpg', description: 'Hotels/ Restraunts' },
+      { src: './images/hotel.jpg', description: 'Hotels/ Restraunts' },
       { src: './images/wedding.jpeg', description: 'Marriage Grounds' },
       { src: './images/hospital.jpg', description: 'Hospitals' },
       { src: './images/residential.webp', description: 'Residential Land' },
