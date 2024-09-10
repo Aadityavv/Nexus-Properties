@@ -331,9 +331,9 @@ color: white;
 
 @media (max-width:600px) {
   #sameBackground{
-    background-image:url(./images/hotel.jpg) ;
+    background-image:url(./images/featured.png);
     background-size: cover;
-    background-color: #ffffff;
+    background-color: #000000;
     color: #ffff;
   }
   
